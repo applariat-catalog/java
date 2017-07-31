@@ -4,7 +4,7 @@
 # Copies the jar file from the code_dir and copies it into /usr/src/app/
 
 #Log everything in /src/build.log
-logfile=/code/build.log
+logfile=/tmp/build.log
 exec > $logfile 2>&1
 set -x
 
